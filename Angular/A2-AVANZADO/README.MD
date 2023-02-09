@@ -60,15 +60,13 @@ Aquí tendríamos la 5ª prueba, que al clickar sobre el logo te lleva al formul
 
 <hr>
 
-Y por aquí tenemos una vista general de este boletín mostrando los resultados, de cara al futuro proyecto, con un footer de componente extra y su boceto <br><br>
-
-![GIF1](videos/4.gif)
+Por aquí tendríamos el boceto del proyecto <br><br>
 
 ![IMAGEN](foto/boceto.png)
 
 
 <hr>
 
-Y por último, aquí tenemos el plan de pruebas: <br><br>
+Y para finalizar, aquí tenemos el plan de pruebas: <br><br>
 
 ![IMAGEN](foto/planP.png)
