@@ -34,18 +34,29 @@ Ya está todo el ejercicio implementado como vemos tanto en el apartado de dise�
 ## 🔁Prueba
 
 
-Aquí tendríamos las pruebas OK tanto de login como de registro <br><br>
-![GIF1](videos/prueba1.gif)
-
-![GIF1](videos/prueba2.gif)
+Aquí tendríamos la 1ª prueba, que sería dirigirse a la página "Inicio" <br><br>
+![GIF1](gifs/inicio.gif)
 
 <hr>
 
-Aquí tendríamos las pruebas KO tanto de login como de registro <br><br>
-![GIF1](videos/2.gif)
+Aquí tendríamos la 2ª prueba, que sería dirigirse a la página "Registrarse" <br><br>
+![GIF1](gifs/registrate.gif)
 
-![GIF1](videos/error2.gif)
+<hr>
 
+
+Aquí tendríamos la 3ª prueba, que sería dirigirse a la página "Sobre Nosotros" <br><br>
+![GIF1](gifs/info.gif)
+
+<hr>
+
+Aquí tendríamos la 4ª prueba, que sería dirigirse a la página "Perfil" <br><br>
+![GIF1](gifs/perfil.gif)
+
+<hr>
+
+Aquí tendríamos la 5ª prueba, que al clickar sobre el logo te lleva al formulario de registro <br><br>
+![GIF1](gifs/logo.gif)
 
 <hr>
 
