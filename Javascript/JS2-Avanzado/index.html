@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ListadoPaíses</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+    body{
+      background-image: url('https://midu.dev/images/wallpapers/fondo-react-horizontal-4k.png'); 
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+    #input {
+      background-color:rgb(255, 255, 255);
+      width: 100%; 
+      font-size: 16px; 
+      padding: 12px 20px 12px 40px; 
+      border: 1px solid rgb(55, 0, 255); 
+      margin-bottom: 12px; 
+    }
+    #input1 {
+      background-color:rgb(255, 255, 255);
+      width: 100%; 
+      font-size: 16px; 
+      padding: 12px 20px 12px 40px; 
+      border: 1px solid rgb(55, 0, 255); 
+      margin-bottom: 12px; 
+    }
+
+    #tabla {
+      border-collapse: collapse; 
+      width: 100%;
+      border: 1px solid rgb(0, 0, 0);
+      font-size: 18px; 
+    }
+
+    #tabla th, #tabla td {
+      text-align: left; 
+      padding: 12px; 
+      color: rgb(0, 0, 0);
+    
+    }
+
+    #tabla tr {
+      border-bottom: 1px solid rgb(0, 0, 0);
+    }
+    #tabla tr.header, #tabla tr:hover {
+
+      background-color: #ffffff;
+    }
+    </style>
+  
+
+</head>
+<body id="">
+
+  <input type="text" id="input1" onkeyup="filtrarPais()" placeholder="Escribe el pais que buscas...">
+  <input type="text" id="input" onkeyup="filtrarCapital()" placeholder="Escribe la capital que buscas...">
+  
+
+  <table id="tabla">
+    <tr class="header">
+      <th style="width:60%;">Ciudad</th>
+      <th style="width:40%;">País</th>
+    </tr>
+  </table>
+  <script src="main.js"></script>
+</body>
+</html>
