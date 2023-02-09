@@ -1,11 +1,12 @@
 <div class="bg-blue-500 p-4">
 <nav class="flex items-center justify-between p-4 md:justify-start">
   <div class="flex items-center object-center object-position: center">
-    <a href="#" class="font-bold text-center text-5xl">ANIKU❤</a>
+    <a [routerLink]="['/login-page']" class="font-bold text-center text-5xl">ANIKU❤</a>
     <div class="ml-4 hidden md:block">
-      <a href="#" class="text-white hover:text-red-600 ml-4 text-3xl">Inicio</a>
-      <a href="#" class="text-white hover:text-red-600 ml-4 text-3xl">Registrarse</a>
-      <a href="#" class="text-white hover:text-red-600 ml-4 text-3xl">Sobre Nosotros</a>
+      <a [routerLink]="['/inicio-page']" class="text-white hover:text-red-600 ml-4 text-3xl">Inicio</a>
+      <a [routerLink]="['/login-page']" class="text-white hover:text-red-600 ml-4 text-3xl">Registrarse</a>
+      <a [routerLink]="['/info-page']" class="text-white hover:text-red-600 ml-4 text-3xl">Sobre Nosotros</a>
+      <a [routerLink]="['/perfil-page']" class="text-white hover:text-red-600 ml-4 text-3xl">Perfil</a>
     </div>
   </div>
   <div>
@@ -17,10 +18,5 @@
   </div>
 </nav>
 
-<div class="md:hidden bg-gray-800 p-4">
-  <a [routerLink]="['/info-page']" class="block py-2 text-white font-medium">Inicio></a>
-  <a href="#" class="block py-2 text-white font-medium">Resources</a>
-  <a href="#" class="block py-2 text-white font-medium">Sign up</a>
-</div>
 </div>
 <br><br><br><br>
