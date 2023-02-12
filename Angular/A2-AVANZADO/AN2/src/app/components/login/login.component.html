@@ -1,25 +1,49 @@
-<div class="formcontacto">
-<div class="main">
-  <input type="checkbox" id="chk" aria-hidden="true">
-
-    <div class="signup">
-      <form>
-        <label for="chk" aria-hidden="true">Registrarse</label>
-        <input type="text" name="txt" placeholder="Nombre*" required>
-        <input type="text" name="txt" placeholder="Apellidos">
-        <input type="email" name="email" placeholder="Correo*" required>
-        <input type="password" name="pswd" placeholder="Contraseña*" required>
-        <button>Registrarse</button>
-      </form>
+<div class="flex items-center justify-center h-screen container ">
+  <form class="bg-white p-6 rounded-lg shadow-2xl w-full max-w-sm">
+    <h2 class="text-2xl font-medium mb-4 text-red-600 italic">REGISTRARSE</h2>
+    <div class="mb-4">
+      <label class="block text-blue-500 font-medium mb-2" for="name">Nombre</label>
+      <input
+        class="w-full border border-gray-400 p-2 rounded-lg"
+        type="text"
+        id="name"
+        name="name"
+        required
+      />
+    </div>
+    <div class="mb-4">
+      <label class="block text-blue-500 font-medium mb-2" for="telephone">G-Mail 💌</label>
+      <input
+        class="w-full border border-gray-400 p-2 rounded-lg"
+        type="tel"
+        id="telephone"
+        name="email"
+        required
+      />
     </div>
 
-    <div class="login">
-      <form>
-        <label for="chk" aria-hidden="true">Iniciar Sesión</label>
-        <input type="email" name="email" placeholder="Correo*" required="">
-        <input type="password" name="pswd" placeholder="Contraseña*" required="">
-        <button>Iniciar Sesión</button>
-      </form>
+    <div class="mb-4">
+      <label class="block text-blue-500 font-medium mb-2" for="email">Teléfono 📞</label>
+      <input
+        class="w-full border border-gray-400 p-2 rounded-lg"
+        type="email"
+        id="email"
+        name="email"
+        required
+      />
     </div>
-</div>
+    <div class="mb-4">
+      <label class="block text-blue-500 font-medium mb-2" for="message">Message</label>
+      <textarea
+        class="w-full border border-gray-400 p-2 rounded-lg resize-none"
+        id="message"
+        name="message"
+        rows="4"
+        required
+      ></textarea>
+    </div>
+    <button class="bg-indigo-500 w-60 h-14 text-white py-2 px-4 rounded-lg hover:bg-indigo-600">
+      REGISTRARSE
+    </button>
+  </form>
 </div>
