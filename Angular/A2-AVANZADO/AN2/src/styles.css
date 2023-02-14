@@ -1,3 +1,85 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+  @font-face {
+    font-family: "Jojo";
+    src: url('fonts/Jojo.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .Jojo {
+    font-family: "Jojo";
+  }
+
+  @font-face {
+    font-family: "Naruto";
+    src: url('fonts/NinjaNaruto-YOn4.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .Naruto {
+    font-family: "Naruto";
+  }
+
+  @font-face {
+    font-family: "FairyTail";
+    src: url('fonts/CROWNT.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .FairyTail {
+    font-family: "FairyTail";
+  }
+
+  @font-face {
+    font-family: "Tokyo";
+    src: url('fonts/TokyoDrifterCondensed-lmOe.otf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .Tokyo {
+    font-family: "Tokyo";
+  }
+
+  @font-face {
+    font-family: "Love";
+    src: url('fonts/LoveMarker-pKRO.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .Love {
+    font-family: "Love";
+  }
+
+  *{
+    margin: 0;
+    padding: 0%;
+  }
+
+}
+
+.fondo{
+  background-image: url("../../foto/ANIKU Logo - 500x500.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+
+}
+
+.FondoLogo{
+  background-image: url("../../foto/Aniku-perfil-logo.png");
+}

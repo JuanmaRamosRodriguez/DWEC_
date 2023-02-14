@@ -4,7 +4,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {}
+      backgroundImage: {
+        'fondo': "url('../../foto/ssj4.png')",
+      }
     },
   },
   plugins: [],
