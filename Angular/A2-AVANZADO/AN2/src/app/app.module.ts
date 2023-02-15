@@ -1,3 +1,4 @@
+import { CartasComponent } from './components/cartas/cartas.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -32,7 +33,8 @@ import { InicioComponent } from './components/inicio/inicio.component';
     PerfilPageComponent,
     FotosComponent,
     FotosPageComponent,
-    InicioComponent
+    InicioComponent,
+    CartasComponent
   ],
   imports: [
     BrowserModule,
