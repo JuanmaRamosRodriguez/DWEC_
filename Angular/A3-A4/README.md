@@ -1,6 +1,6 @@
 ## ANGULAR
 
-> Tarea AVANZADA.
+> Tarea A3 y A4.
 
 ![LOGO](foto/imagen.png)
 
