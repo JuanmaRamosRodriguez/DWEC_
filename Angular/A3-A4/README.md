@@ -1,8 +1,10 @@
 ## ANGULAR
 
 > Tarea A3 y A4.
+> 
+![Logo][1]
 
-![LOGO](foto/International_Pokémon_logo.svg.png.png)
+[1]: International_Pokémon_logo.svg.png "Creative Commons licensed" 
 
 
 
