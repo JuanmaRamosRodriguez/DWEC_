@@ -4,7 +4,7 @@
 > 
 ![Logo][1]
 
-[1]: International_Pokémon_logo.svg.png "Creative Commons licensed" 
+[1]: foto/International_Pokémon_logo.svg.png "Creative Commons licensed" 
 
 
 
@@ -20,6 +20,8 @@ Los ejercicios de este boletín van enfocados al uso de las directivas ngIf y/o 
 - ngStyle: La directiva de atributo ngStyle actualiza los estilos para un elemento HTML determinado. Establece una o más propiedades de estilo, especificadas como pares clave-valor separados por dos puntos. La clave es un nombre de estilo y el valor es una expresión a evaluar o valor a asignar. Si indicamos directamente el valor a asignar tenemos la siguiente sintaxis:
 
 #### <h1 [ngStyle]="{'color':'red','background-color':'#ff0','text-align':'center'}">Sitio fuera de servicio</h1>
+
+![FOTO](foto/ngStyle.png)
 
 ---
 
