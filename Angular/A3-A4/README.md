@@ -2,7 +2,7 @@
 
 > Tarea A3 y A4.
 
-![LOGO](foto/imagen.png)
+![LOGO](foto/International_Pokémon_logo.svg.png.png)
 
 
 
