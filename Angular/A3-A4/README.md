@@ -23,11 +23,11 @@ Los ejercicios de este boletín van enfocados al uso de las directivas ngIf y/o 
 
 - ngClass: Cuando hablamos de HTML, una class es un parámetro en una etiqueta que hace referencia a un grupo de estilos que van a determinar la apariencia del elemento. Pero cuando trbajamos en Angular, se hace con las ngClass, que cumplen la misma función pero con más potencia, ya que podemos cambiar el valor de la clase de forma dinámica desde el TS.
 
-![](foto/ngClass1.png)
+![FOTO](foto/ngClass1.png)
 
-![](foto/ngClass2.png)
+![FOTO](foto/ngClass2.png)
 
-![](foto/ngClass3.png)
+![FOTO](foto/ngClass3.png)
 
 <br>
 
