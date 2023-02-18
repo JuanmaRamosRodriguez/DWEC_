@@ -4,17 +4,6 @@
 
 
 @layer base{
-  @font-face {
-    font-family: "Jojo";
-    src: url('fonts/Jojo.ttf');
-
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  .Jojo {
-    font-family: "Jojo";
-  }
 
   @font-face {
     font-family: "Naruto";
@@ -29,27 +18,27 @@
   }
 
   @font-face {
-    font-family: "FairyTail";
-    src: url('fonts/CROWNT.ttf');
+    font-family: "Jojo";
+    src: url('fonts/Jojomix-gEr4.ttf');
 
     font-weight: normal;
     font-style: normal;
   }
 
-  .FairyTail {
-    font-family: "FairyTail";
+  .Jojo {
+    font-family: "Jojo";
   }
 
   @font-face {
-    font-family: "Tokyo";
-    src: url('fonts/TokyoDrifterCondensed-lmOe.otf');
+    font-family: "Attack";
+    src: url('fonts/AttackOnCourier-5nJz.ttf');
 
     font-weight: normal;
     font-style: normal;
   }
 
-  .Tokyo {
-    font-family: "Tokyo";
+  .Attack {
+    font-family: "Attack";
   }
 
   @font-face {
@@ -64,6 +53,32 @@
     font-family: "Love";
   }
 
+  @font-face {
+    font-family: "Beastar";
+    src: url('fonts/Fonstars-4Bo0p.otf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .Beastar {
+    font-family: "Beastar";
+  }
+
+  @font-face {
+    font-family: "CR";
+    src: url('fonts/CROWNT.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .CR {
+    font-family: "CR";
+  }
+
+
+
   *{
     margin: 0;
     padding: 0%;
@@ -72,7 +87,7 @@
 }
 
 .fondo{
-  background-image: url("../../foto/ANIKU Logo - 500x500.png");
+  background-image: url("../../foto/aniku_blanco.png");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -83,3 +98,4 @@
 .FondoLogo{
   background-image: url("../../foto/Aniku-perfil-logo.png");
 }
+

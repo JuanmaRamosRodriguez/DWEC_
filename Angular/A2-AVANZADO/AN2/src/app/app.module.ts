@@ -17,6 +17,8 @@ import { PerfilPageComponent } from './pages/perfil-page/perfil-page.component';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { FotosPageComponent } from './pages/fotos-page/fotos-page.component';
 import { InicioComponent } from './components/inicio/inicio.component';
+import { Login2Component } from './components/login2/login2.component';
+import { Login2PageComponent } from './pages/login2-page/login2-page.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { InicioComponent } from './components/inicio/inicio.component';
     FotosComponent,
     FotosPageComponent,
     InicioComponent,
-    CartasComponent
+    CartasComponent,
+    Login2Component,
+    Login2PageComponent
   ],
   imports: [
     BrowserModule,
