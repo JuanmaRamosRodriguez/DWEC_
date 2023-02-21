@@ -96,6 +96,10 @@
 }
 
 .FondoLogo{
-  background-image: url("../../foto/Aniku-perfil-logo.png");
+  background-image: url("../src/images/FondoLogo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 

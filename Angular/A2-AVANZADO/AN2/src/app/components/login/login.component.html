@@ -1,20 +1,9 @@
 <div class="flex items-center justify-center h-screen bg-gradient-to-r from-indigo-300 via-transparent to-cyan-200 w-full">
 
-  <form action="inicio-page" class="bg-white p-6 rounded-lg shadow-2xl w-full max-w-md">
-      <h2 class="text-4xl mb-4 text-red-600 italic Beastar text-center ">REGISTRARSE</h2>
+  <form action="inicio-page" class="bg-slate-100 p-6 rounded-lg shadow-2xl w-full max-w-md">
+      <h2 class="text-3xl mb-4 text-red-600 italic Beastar text-center ">Iniciar Sesion</h2>
       <div class="mb-4">
-        <label class="block text-blue-500 mb-2 text-left text-2xl transition-colors Attack duration-300" for="name">Nombre</label>
-        <input
-          class="w-full border border-gray-400 p-2 rounded-lg"
-          type="text"
-          id="name"
-          name="name"
-          required
-        />
-
-      </div>
-      <div class="mb-4">
-        <label class="block text-blue-500 mb-2 text-left text-2xl transition-colors Attack duration-300" for="email">G-Mail 💌</label>
+        <label class="block text-blue-500 mb-2 Jojo text-left text-1xl transition-colors Attack duration-300" for="email">Correo 💌</label>
         <input
           class="w-full border border-gray-400 p-2 rounded-lg"
           type="email"
@@ -25,17 +14,7 @@
       </div>
 
       <div class="mb-4">
-        <label class="block text-blue-500 mb-2 text-left text-2xl transition-colors Attack duration-300" for="telephone">Teléfono 📞</label>
-        <input
-          class="w-full border border-gray-400 p-2 rounded-lg"
-          type="tel"
-          id="telephone"
-          name="telephone"
-          required pattern="[0-9]{9}"
-        />
-      </div>
-      <div class="mb-4">
-        <label class="block text-blue-500 mb-2 text-left text-2xl transition-colors Attack duration-300" for="password">Contraseña 🔑</label>
+        <label class="block text-blue-500 mb-2 Jojo text-left text-1xl transition-colors Attack duration-300" for="password">Contraseña 🔑</label>
         <input
           class="w-full border border-gray-400 p-2 rounded-lg"
           type="password"
@@ -44,12 +23,8 @@
           required
         />
       </div>
-      <button class="bg-indigo-400 hover:bg-indigo-600 w-40 h-14 text-white text-center py-4 px-4 rounded-md transition-colors duration-300 Love flex mx-auto" type="submit">REGISTRARSE</button>
-      <a [routerLink]="['/login2-page']" class="font-bold text-indigo-400 hover:text-indigo-600"><br><p class="text-center">¿Tienes cuenta?</p></a><br>
-      <p class="Love text-xs text-center">Al registrarte, estarías aceptando tanto nuestras condiciones como con nuestra política de privacidad</p>
+      <button class="bg-indigo-400 hover:bg-indigo-600 w-40 h-14 text-white text-center py-4 px-10 rounded-md transition-colors duration-300  Love flex mx-auto" type="submit">ENTRAR</button>
+      <a [routerLink]="['/login2-page']" class="font-bold text-indigo-400 hover:text-indigo-600"><p class="text-center text-xs">¿No tienes cuenta?</p></a><br>
     </form>
 
-
-
 </div>
-

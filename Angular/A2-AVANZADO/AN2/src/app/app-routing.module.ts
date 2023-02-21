@@ -7,7 +7,7 @@ import { InfoPageComponent } from './pages/info-page/info-page.component';
 import { Login2PageComponent } from './pages/login2-page/login2-page.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'/login-page', pathMatch:'full'},
+  {path:'',redirectTo:'/login2-page', pathMatch:'full'},
   {path:'inicio-page',component:InicioPageComponent},
   {path:'login-page',component:LoginPageComponent},
   {path:'login2-page',component:Login2PageComponent},
