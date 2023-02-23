@@ -1,25 +1,26 @@
-<div class="h-0 bg-gradient-to-r">
-  <div class="bg-blue-500 p-4">
-    <nav class="flex items-center p-4 ">
-
-      <div class="ml-4 hidden md:block">
-        <a [routerLink]="['/inicio-page']" class="text-white hover:text-red-600 transition-colors duration-500 ml-20 text-3xl Beastar">Inicio</a>
-        <a [routerLink]="['/login-page']" class="text-white hover:text-red-600 transition-colors duration-500 ml-20 text-3xl Beastar">Registrarse</a>
-        <a [routerLink]="['/login-page']" class="text-red-600 hover:text-red-900 transition-colors duration-500 ml-20 text-3xl Beastar">❤ANIKU❤</a>
-        <a [routerLink]="['/info-page']" class="text-white hover:text-red-600 transition-colors duration-500 ml-20 text-3xl Beastar">Nosotros</a>
-        <a [routerLink]="['/perfil-page']" class="text-white hover:text-red-600 transition-colors duration-500 ml-20 text-3xl Beastar">Perfil</a>
-      </div>
-      <div>
-        <button class="btn btn-primary md:hidden">
-          <svg class="fill-current w-4 h-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div>
-    </nav>
-
+  <div class="text-center p-4 fixed w-full top-0 z-50 bg-blue-400">
+    <ul class="hidden md:flex items-center justify-center bg-blue-400 relative space-x-28">
+      <li class="ml-4">
+        <a [routerLink]="['/inicio-page']" class="text-white hover:text-red-600 transition-colors duration-500 text-3xl font-bold Beastar">Inicio</a>
+      </li>
+      <li class="ml-4">
+        <a [routerLink]="['/login-page']" class="text-white hover:text-red-600 transition-colors duration-500 text-3xl font-bold Beastar">Registrarse</a>
+      </li>
+      <li class="ml-4">
+        <a [routerLink]="['/login-page']" class="text-red-600 text-3xl font-bold Beastar">❤ANIKU❤</a>
+      </li>
+      <li class="ml-4">
+        <a [routerLink]="['/info-page']" class="text-white hover:text-red-600 transition-colors duration-500 text-3xl font-bold Beastar">Premium</a>
+      </li>
+      <li class="ml-4">
+        <img [routerLink]="['/perfil-page']" src="https://tecdn.b-cdn.net/img/new/avatars/1.webp" class="w-16 h-w-16 rounded-full shadow-lg " alt="Avatar" />
+      </li>
+    </ul>
+    <div>
+      <button class="md:hidden">
+        <svg class="fill-current w-4 h-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    </div>
   </div>
-</div>
-
-
-<br><br><br><br>
