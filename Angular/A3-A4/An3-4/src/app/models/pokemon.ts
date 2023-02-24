@@ -1,4 +1,4 @@
-export class Pokemon{
+export class Pokemon {
   public title: String;
   public image: String;
 
