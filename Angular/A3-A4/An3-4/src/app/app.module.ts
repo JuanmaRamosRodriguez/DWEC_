@@ -1,20 +1,30 @@
-import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import { PokemonListComponent } from './pages/pokemon-list/pokemon-list.component';
+import { LoginComponent } from './Components/login/login.component';
+import { ElinicioComponent } from './Components/elinicio/elinicio.component';
+import { ElinicioPageComponent } from './pages/elinicio-page/elinicio-page.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { AppRoutingModule } from './app-routing.module';
+import { PokemonComponent } from './pokemon/pokemon.component';
+import { InicioComponent } from './components/inicio/inicio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PokemonListComponent
+    LoginComponent,
+    ElinicioComponent,
+    ElinicioPageComponent,
+    LoginPageComponent,
+    PokemonComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

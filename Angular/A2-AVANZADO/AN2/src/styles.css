@@ -6,15 +6,15 @@
 @layer base{
 
   @font-face {
-    font-family: "Naruto";
-    src: url('fonts/NinjaNaruto-YOn4.ttf');
+    font-family: "EX";
+    src: url('fonts/Extraornamentalno2-voRy.ttf');
 
     font-weight: normal;
     font-style: normal;
   }
 
-  .Naruto {
-    font-family: "Naruto";
+  .EX {
+    font-family: "EX";
   }
 
   @font-face {
@@ -102,4 +102,3 @@
   background-attachment: fixed;
 
 }
-
