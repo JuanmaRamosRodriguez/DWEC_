@@ -1,21 +1,26 @@
-<select (change)="changePokemons($event)" name="pokemons" id="pokemons">
-  <option id="option3" value="10" selected>FUEGO</option>
-  <option id="option2" value="11">AGUA</option>
-  <option id="option1" value="12">HIERBA</option>
-</select>
-
-<br>
-
-<table>
-
+<div id="fondo">
+<div id="centro">
   <h1>Pokémons</h1>
-  <tr *ngFor="let index of items">
-    <td id="c1">
-      {{index.pokemon.name}}
-    </td>
-    <td>
-    <a href="{{index.pokemon.url}}" target="_blank">{{index.pokemon.url}}</a>
-    </td>
-  </tr>
+</div>
 
-</table>
+  <select (change)="changePokemons($event)" name="pokemons" id="pokemons">
+    <option id="option3" value="10" selected>FUEGO</option>
+    <option id="option2" value="11">AGUA</option>
+    <option id="option1" value="12">HIERBA</option>
+  </select>
+
+<br><br>
+
+  <table align="center">
+
+    <tr *ngFor="let index of items">
+      <td id="c1">
+        {{index.pokemon.name}}
+      </td>
+      <td>
+      <a href="{{index.pokemon.url}}" target="_blank">{{index.pokemon.url}}</a>
+      </td>
+    </tr>
+
+  </table>
+</div>
