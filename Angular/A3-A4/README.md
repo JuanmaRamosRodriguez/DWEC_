@@ -70,6 +70,7 @@ Esta sería una muestra general para confimrar que funciona el dropdown <br><br>
 
 ![GIF1](foto/gifTarea.gif)
 
+---
 
 Aquí tendríamos la 1ª prueba, mostrando los pokemons de tipo "fuego" <br><br>
 ![GIF1](foto/gif1.gif)
