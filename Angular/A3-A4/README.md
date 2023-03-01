@@ -27,11 +27,13 @@ Los ejercicios de este boletín van enfocados al uso de las directivas ngIf y/o 
 
 - ngClass: Cuando hablamos de HTML, una class es un parámetro en una etiqueta que hace referencia a un grupo de estilos que van a determinar la apariencia del elemento. Pero cuando trbajamos en Angular, se hace con las ngClass, que cumplen la misma función pero con más potencia, ya que podemos cambiar el valor de la clase de forma dinámica desde el TS.
 
-![FOTO](foto/ngClass1.png)
+![FOTO](foto/ngClass.png)
 
-![FOTO](foto/ngClass2.png)
+---
 
-![FOTO](foto/ngClass3.png)
+- ngTemplate: podemos tener nuestra template en cualquier sitio de la página e instanciarla. Estamos referenciando a la template nopeople con su referencia ‘#nopeople’ y usamos la directiva estructural ngTemplateOutlet para instanciar la template
+
+![FOTO](foto/ngTemplate.png)
 
 <br>
 
