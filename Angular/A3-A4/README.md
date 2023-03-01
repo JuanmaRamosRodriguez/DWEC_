@@ -67,29 +67,19 @@ Ya está todo el ejercicio implementado como vemos tanto en el apartado de dise�
 ## 🔁Prueba
 
 
-Aquí tendríamos la 1ª prueba, que sería dirigirse a la página "Inicio" <br><br>
-![GIF1](gifs/inicio.gif)
+Aquí tendríamos la 1ª prueba, mostrando los pokemons de tipo "fuego" <br><br>
+![GIF1](foto/gifFuego.gif)
 
 <hr>
 
-Aquí tendríamos la 2ª prueba, que sería dirigirse a la página "Registrarse" <br><br>
-![GIF1](gifs/registrate.gif)
+Aquí tendríamos la 2ª prueba, mostrando los pokemons de tipo "agua" <br><br>
+![GIF1](foto/gifAgua.gif)
 
 <hr>
 
 
-Aquí tendríamos la 3ª prueba, que sería dirigirse a la página "Sobre Nosotros" <br><br>
-![GIF1](gifs/info.gif)
-
-<hr>
-
-Aquí tendríamos la 4ª prueba, que sería dirigirse a la página "Perfil" <br><br>
-![GIF1](gifs/perfil.gif)
-
-<hr>
-
-Aquí tendríamos la 5ª prueba, que al clickar sobre el logo te lleva al formulario de registro <br><br>
-![GIF1](gifs/logo.gif)
+Aquí tendríamos la 3ª prueba, mostrando los pokemons de tipo "hierba" <br><br>
+![GIF1](foto/gifHierba.gif)
 
 <hr>
 
