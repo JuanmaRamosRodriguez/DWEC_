@@ -78,7 +78,7 @@ Ejemplo al pulsar un enlace de un pokemon de fuego <br><br>
 Aquí tendríamos la 2ª prueba, mostrando los pokemons de tipo "agua" <br><br>
 ![GIF1](foto/gif2.gif)
 
-Ejemplo al pulsar un enlace de un pokemon de fuego <br><br>
+Ejemplo al pulsar un enlace de un pokemon de agua <br><br>
 ![](foto/pokAgua.png)
 
 <hr>
