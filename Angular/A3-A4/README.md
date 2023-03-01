@@ -52,7 +52,7 @@ Un listado de los nombres de los Pokemons del tipo seleccionado en el desplegabl
 
 Aquí estaría el diseño UML de este formulario
 
-![](foto/uml.png)
+![UML](foto/uml.png)
 
 
 <hr>
@@ -70,10 +70,16 @@ Ya está todo el ejercicio implementado como vemos tanto en el apartado de dise�
 Aquí tendríamos la 1ª prueba, mostrando los pokemons de tipo "fuego" <br><br>
 ![GIF1](foto/gif1.gif)
 
+Ejemplo al pulsar un enlace de un pokemon de fuego <br><br>
+![](foto/pokFuego.png)
+
 <hr>
 
 Aquí tendríamos la 2ª prueba, mostrando los pokemons de tipo "agua" <br><br>
 ![GIF1](foto/gif2.gif)
+
+Ejemplo al pulsar un enlace de un pokemon de fuego <br><br>
+![](foto/pokAgua.png)
 
 <hr>
 
@@ -81,12 +87,10 @@ Aquí tendríamos la 2ª prueba, mostrando los pokemons de tipo "agua" <br><br>
 Aquí tendríamos la 3ª prueba, mostrando los pokemons de tipo "hierba" <br><br>
 ![GIF1](foto/gif3.gif)
 
+Ejemplo al pulsar un enlace de un pokemon de fuego <br><br>
+![](foto/pokHierba.png)
+
 <hr>
-
-Por aquí tendríamos el boceto del proyecto <br><br>
-
-![IMAGEN](foto/boceto.png)
-
 
 <hr>
 
