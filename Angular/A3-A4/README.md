@@ -74,25 +74,15 @@ Esta sería una muestra general para confimrar que funciona el dropdown <br><br>
 Aquí tendríamos la 1ª prueba, mostrando los pokemons de tipo "fuego" <br><br>
 ![GIF1](foto/gif1.gif)
 
-Ejemplo al pulsar un enlace de un pokemon de fuego <br><br>
-![](foto/pokFuego.png)
-
 <hr>
 
 Aquí tendríamos la 2ª prueba, mostrando los pokemons de tipo "agua" <br><br>
 ![GIF1](foto/gif2.gif)
 
-Ejemplo al pulsar un enlace de un pokemon de agua <br><br>
-![](foto/pokAgua.png)
-
 <hr>
-
 
 Aquí tendríamos la 3ª prueba, mostrando los pokemons de tipo "hierba" <br><br>
 ![GIF1](foto/gif3.gif)
-
-Ejemplo al pulsar un enlace de un pokemon de fuego <br><br>
-![](foto/pokHierba.png)
 
 <hr>
 
