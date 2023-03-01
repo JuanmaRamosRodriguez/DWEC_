@@ -68,18 +68,18 @@ Ya está todo el ejercicio implementado como vemos tanto en el apartado de dise�
 
 
 Aquí tendríamos la 1ª prueba, mostrando los pokemons de tipo "fuego" <br><br>
-![GIF1](foto/gifFuego.gif)
+![GIF1](foto/gif1.gif)
 
 <hr>
 
 Aquí tendríamos la 2ª prueba, mostrando los pokemons de tipo "agua" <br><br>
-![GIF1](foto/gifAgua.gif)
+![GIF1](foto/gif2.gif)
 
 <hr>
 
 
 Aquí tendríamos la 3ª prueba, mostrando los pokemons de tipo "hierba" <br><br>
-![GIF1](foto/gifHierba.gif)
+![GIF1](foto/gif3.gif)
 
 <hr>
 
