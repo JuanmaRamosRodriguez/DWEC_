@@ -1,24 +1,21 @@
-<input type="submit" [routerLink]="['/loginPage']" onclick="" class="btn btn-success w-100" value="Volver atrá">
-<br>
-<br>
 <select (change)="changePokemons($event)" name="pokemons" id="pokemons">
-  <option value="12">Hierba</option>
-  <option value="10" selected>Fuego</option>
-  <option value="11">Agua</option>
+  <option id="option3" value="10" selected>FUEGO</option>
+  <option id="option2" value="11">AGUA</option>
+  <option id="option1" value="12">HIERBA</option>
 </select>
 
 <br>
 
 <table>
-  <br>
-  <h1>Pokédex</h1>
-  <tr *ngFor="let index of items">
-    <td>
-      {{index.pokemon.name}}
 
-  </td>
-  <td>
-    {{index.pokemon.url}}
-  </td>
-    </tr>
+  <h1>Pokémons</h1>
+  <tr *ngFor="let index of items">
+    <td id="c1">
+      {{index.pokemon.name}}
+    </td>
+    <td>
+    <a href="{{index.pokemon.url}}" target="_blank">{{index.pokemon.url}}</a>
+    </td>
+  </tr>
+
 </table>

@@ -5,8 +5,7 @@ import { ElinicioPageComponent } from './pages/elinicio-page/elinicio-page.compo
 import { CommonModule } from '@angular/common';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/loginPage', pathMatch: 'full' },
-  { path: 'loginPage', component: LoginPageComponent},
+  { path: '', redirectTo: '/inicioPage', pathMatch: 'full' },
   { path: 'inicioPage', component: ElinicioPageComponent}
 
     ];

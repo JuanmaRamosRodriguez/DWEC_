@@ -1,3 +1,28 @@
-td {
-  color: crimson;
+h1{
+  color: brown;
+
+}
+
+td{
+  color: black;
+}
+
+tr{
+  color: goldenrod;
+}
+
+#option1{
+  color: green;
+}
+
+#option2{
+  color: blue;
+}
+
+#option3{
+  color: red;
+}
+
+#c1{
+color:dimgray;
 }
