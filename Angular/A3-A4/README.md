@@ -66,6 +66,10 @@ Ya está todo el ejercicio implementado como vemos tanto en el apartado de dise�
 
 ## 🔁Prueba
 
+Esta sería una muestra general para confimrar que funciona el dropdown <br><br>
+
+![GIF1](foto/gifTarea.gif)
+
 
 Aquí tendríamos la 1ª prueba, mostrando los pokemons de tipo "fuego" <br><br>
 ![GIF1](foto/gif1.gif)
