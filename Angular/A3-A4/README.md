@@ -92,8 +92,6 @@ Ejemplo al pulsar un enlace de un pokemon de fuego <br><br>
 
 <hr>
 
-<hr>
-
 Y para finalizar, aquí tenemos el plan de pruebas: <br><br>
 
 ![IMAGEN](foto/planP.png)
