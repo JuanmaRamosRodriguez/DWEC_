@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ElinicioPageComponent } from './elinicio-page.component';
+import { InicioPageComponent } from './inicio-page.component';
 
-describe('ElinicioPageComponent', () => {
-  let component: ElinicioPageComponent;
-  let fixture: ComponentFixture<ElinicioPageComponent>;
+describe('InicioPageComponent', () => {
+  let component: InicioPageComponent;
+  let fixture: ComponentFixture<InicioPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ElinicioPageComponent ]
+      declarations: [ InicioPageComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ElinicioPageComponent);
+    fixture = TestBed.createComponent(InicioPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

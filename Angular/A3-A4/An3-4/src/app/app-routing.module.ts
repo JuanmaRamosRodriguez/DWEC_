@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginPageComponent } from './pages/login-page/login-page.component';
-import { ElinicioPageComponent } from './pages/elinicio-page/elinicio-page.component';
+import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
 import { CommonModule } from '@angular/common';
 
 const routes: Routes = [
   { path: '', redirectTo: '/inicioPage', pathMatch: 'full' },
-  { path: 'inicioPage', component: ElinicioPageComponent}
+  { path: 'inicioPage', component: InicioPageComponent}
 
     ];
 

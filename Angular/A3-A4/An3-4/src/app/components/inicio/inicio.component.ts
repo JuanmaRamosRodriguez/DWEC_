@@ -3,14 +3,14 @@ import { PokemonService } from 'src/app/services/pokemons.service';
 
 
 @Component({
-  selector: 'app-elinicio',
-  templateUrl: './elinicio.component.html',
-  styleUrls: ['./elinicio.component.css'],
+  selector: 'app-inicio',
+  templateUrl: './inicio.component.html',
+  styleUrls: ['./inicio.component.css'],
   providers: [PokemonService]
 
 })
 
-export class ElinicioComponent implements OnInit{
+export class InicioComponent implements OnInit{
 
   @Input() public name: String;
 
