@@ -102,3 +102,18 @@
   background-attachment: fixed;
 
 }
+
+.FondoI{
+  background-image: url("../src/images/FondoI.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.FondoG{
+  background-image: url("../src/images/FondoG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+

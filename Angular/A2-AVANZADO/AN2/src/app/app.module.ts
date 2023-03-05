@@ -19,6 +19,7 @@ import { FotosPageComponent } from './pages/fotos-page/fotos-page.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { Login2Component } from './components/login2/login2.component';
 import { Login2PageComponent } from './pages/login2-page/login2-page.component';
+import { LateralComponent } from './components/lateral/lateral.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { Login2PageComponent } from './pages/login2-page/login2-page.component';
     InicioComponent,
     CartasComponent,
     Login2Component,
-    Login2PageComponent
+    Login2PageComponent,
+    LateralComponent
   ],
   imports: [
     BrowserModule,
