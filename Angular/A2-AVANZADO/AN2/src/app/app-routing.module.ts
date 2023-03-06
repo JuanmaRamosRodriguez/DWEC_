@@ -1,3 +1,4 @@
+import { CompraPageComponent } from './pages/compra-page/compra-page.component';
 import { InicioPageComponent } from './pages/inicio-page/inicio-page.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:'login2-page',component:Login2PageComponent},
   {path:'perfil-page',component:PerfilPageComponent},
   {path:'info-page',component:InfoPageComponent},
+  {path:'compra-page',component:CompraPageComponent},
 ];
 
 @NgModule({

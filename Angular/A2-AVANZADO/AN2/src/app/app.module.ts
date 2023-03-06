@@ -20,6 +20,8 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { Login2Component } from './components/login2/login2.component';
 import { Login2PageComponent } from './pages/login2-page/login2-page.component';
 import { LateralComponent } from './components/lateral/lateral.component';
+import { CompraComponent } from './components/compra/compra.component';
+import { CompraPageComponent } from './pages/compra-page/compra-page.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { LateralComponent } from './components/lateral/lateral.component';
     CartasComponent,
     Login2Component,
     Login2PageComponent,
-    LateralComponent
+    LateralComponent,
+    CompraComponent,
+    CompraPageComponent
   ],
   imports: [
     BrowserModule,

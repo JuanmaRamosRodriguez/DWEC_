@@ -96,7 +96,7 @@
 }
 
 .FondoLogo{
-  background-image: url("../src/images/FondoLogo.png");
+  background-image: url("https://fondosmil.com/fondo/457.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -116,5 +116,4 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 
