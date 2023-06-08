@@ -22,6 +22,10 @@ import { Login2PageComponent } from './pages/login2-page/login2-page.component';
 import { LateralComponent } from './components/lateral/lateral.component';
 import { CompraComponent } from './components/compra/compra.component';
 import { CompraPageComponent } from './pages/compra-page/compra-page.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -48,7 +52,10 @@ import { CompraPageComponent } from './pages/compra-page/compra-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
