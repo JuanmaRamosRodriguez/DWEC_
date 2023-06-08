@@ -1,36 +1,35 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { RegistroService } from '../../service/registro/registro.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login2',
   templateUrl: './login2.component.html',
   styleUrls: ['./login2.component.css']
 })
-export class Login2Component {
-  formulario = {
-    name: '',
-    telephone: '',
-    email: '',
-    password: ''
-  };
+export class Login2Component{
 
-  onSubmit() {
+  nombre!: string;
+  telefono!: string;
+  email!: string;
+  password!: string;
 
-    const datosFormulario = JSON.stringify(this.formulario);
+  constructor(private registroService: RegistroService, private router: Router) { }
 
-    fetch('https://aniku.onrender.com/usuarios', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: datosFormulario
-    })
-      .then(response => response.json())
-      .then(data => {
-        console.log(data);
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-
+  submitForm() {
+    if (this.nombre && this.telefono && this.email && this.password) {
+      this.registroService.enviarDatos(this.nombre, this.telefono, this.email, this.password)
+        .subscribe(
+          response => {
+            console.log(response);
+            this.router.navigate(['/inicio-page']);
+          },
+          error => {
+            console.error(error);
+          }
+        );
+    } else {
+      console.log('Por favor, complete todos los campos');
+    }
   }
 }
