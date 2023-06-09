@@ -29,7 +29,7 @@ export class Login2Component{
           }
         );
     } else {
-      console.log('Por favor, complete todos los campos');
+      console.log('Por favor, complete todos los campos para entrar');
     }
   }
 }

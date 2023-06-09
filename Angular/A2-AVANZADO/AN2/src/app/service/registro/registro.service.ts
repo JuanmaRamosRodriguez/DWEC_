@@ -6,6 +6,9 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class RegistroService {
+  eliminarUsuario() {
+    throw new Error('Method not implemented.');
+  }
 
   constructor(private http:HttpClient) { }
 

@@ -24,6 +24,10 @@ import { CompraComponent } from './components/compra/compra.component';
 import { CompraPageComponent } from './pages/compra-page/compra-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BotonfotoComponent } from './components/botonfoto/botonfoto.component';
+import { BotonfotoPageComponent } from './pages/botonfoto-page/botonfoto-page.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { ProfilePageComponent } from './pages/profile-page/profile-page.component';
 
 
 
@@ -49,7 +53,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     Login2PageComponent,
     LateralComponent,
     CompraComponent,
-    CompraPageComponent
+    CompraPageComponent,
+    BotonfotoComponent,
+    BotonfotoPageComponent,
+    ProfileComponent,
+    ProfilePageComponent
   ],
   imports: [
     BrowserModule,
