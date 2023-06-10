@@ -10,7 +10,7 @@
       <label class="block text-blue-500 mb-2 Jojo text-left text-1xl transition-colors Attack duration-300" for="password">Contraseña 🔑</label>
       <input class="w-full border border-gray-400 p-2 rounded-lg" type="password" id="password" name="password" [(ngModel)]="password" required />
     </div>
-    <button class="bg-indigo-400 hover:bg-indigo-600 w-40 h-14 text-white text-center py-4 px-10 rounded-md transition-colors duration-300 Love flex mx-auto" type="button" (click)="submitForm()">ENTRAR</button>
+    <button [routerLink]="['/inicio-page']" class="bg-indigo-400 hover:bg-indigo-600 w-40 h-14 text-white text-center py-4 px-10 rounded-md transition-colors duration-300 Love flex mx-auto" type="button" (click)="submitForm()">ENTRAR</button>
     <a [routerLink]="['/login2-page']" class="font-bold text-indigo-400 hover:text-indigo-600"><p class="text-center text-xs">¿No tienes cuenta?</p></a><br>
   </form>
 </div>
